@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/TR/REC-html40">
+  <head>
+    <title>[SAVIOR] Load Actor by GUID</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bpdoc.css" />
+  </head>
+  <body>
+    <div id="content_container">
+      <a class="navbar_style" href="../../index.html">Savior 3</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style" href="../Savior3.html">Savior III</a>
+      <a class="navbar_style">&gt;</a>
+      <a class="navbar_style">[SAVIOR] Load Actor by GUID</a>
+      <h1 class="title_style">[SAVIOR] Load Actor by GUID</h1>
+      <p>Loads from Slot all Properties marked 'SaveGame' of Actor from given 'SGUID'.<br />      Only COMPLEX data set store SGUID info. Minimal set will always fail this.<br />      This is NOT a call to 'Read Slot from File' function, call it manually.<br />      @SGUID: Target Actor must contain a 'SGUID' Property of type FGuid marked 'SaveGame'.</p>
+      <img src="../img/nd_img_LoadActorWithGUID.png" />
+      <h3 class="title_style">Inputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">In</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Target</div>
+              <div class="param_type">Savior III Object Reference</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Context</div>
+              <div class="param_type">Object Reference</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">SGUID</div>
+              <div class="param_type">Guid Structure (by ref)</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="title_style">Outputs</h3>
+      <table>
+        <colgroup>
+          <col width="25%" />
+          <col width="75%" />
+        </colgroup>
+        <tbody>
+          <tr>
+            <td>
+              <div class="param_name title_style">Success</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Failed</div>
+              <div class="param_type">Exec</div>
+            </td>
+            <td>
+              <p />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="param_name title_style">Return Value</div>
+              <div class="param_type">Actor Object Reference</div>
+            </td>
+            <td>
+              <p>Loads from Slot all Properties marked 'SaveGame' of Actor from given 'SGUID'.<br />      Only COMPLEX data set store SGUID info. Minimal set will always fail this.<br />      This is NOT a call to 'Read Slot from File' function, call it manually.<br />      @SGUID: Target Actor must contain a 'SGUID' Property of type FGuid marked 'SaveGame'.</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
